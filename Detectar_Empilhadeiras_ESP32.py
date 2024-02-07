@@ -20,10 +20,7 @@ CELL_BORDER = (0, 0, 255) # Cor da borda para a caixa de detecção do objeto
 #possui_esp32 = input('Possui Sistema ESP32 conectado na Rede? (Responda SIM ou NAO): ')
 #esp32_ip = str(input('Digite o caminho do ESP32 (IP): '))
 
-
-# ------------------
 # Código para solicitar a conexão do ESP32 e validar o IP
-
 def validar_ip(ip):
     """Valida se o endereço IP está em um formato válido."""
     pattern = re.compile(r"^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$")
@@ -37,7 +34,6 @@ def validar_esp32():
                 ip_esp32 = input("Digite o IP do ESP32: ").strip()
                 if validar_ip(ip_esp32):
                     print(f"IP válido: {ip_esp32}")
-                    # Aqui, o IP seria utilizado para a lógica de detecção de objetos
                     
                     # Função usando a biblioteça OpenCV para usar a Webcam na detecção de objetos
                     captura = cv2.VideoCapture(0) 
