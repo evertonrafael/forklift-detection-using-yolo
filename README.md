@@ -18,15 +18,42 @@ Essas instruções vão te guiar sobre como obter uma cópia do projeto e rodá-
 
 ### Pré-requisitos
 
-O que você precisa para instalar o software e como instalá-lo:
+Python: https://www.python.org/downloads/
+Pip: https://pypi.org/project/pip/
+PyTorch: https://pytorch.org/
+Tqdm: https://pypi.org/project/tqdm/
+PyYAML: https://pypi.org/project/PyYAML/
+Protobuf: https://pypi.org/project/protobuf/
+Tensorboard: https://pypi.org/project/tensorboard/
+OpenCV: https://pypi.org/project/opencv-python/
+Requests: https://pypi.org/project/requests/
 
-### Instalação
+### Instalação Local Windows
+Python: Faça o download do Python na sua maquina e instale normalmente.
 
-Um passo a passo que informa o que você deve executar para ter um ambiente de desenvolvimento em execução.
+Pip:
+pip install pip
 
-Diga o que será o passo
+PyTorch (https://pytorch.org/get-started/locally/):
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
-Finalize com um exemplo de como retirar alguns dados do sistema ou usá-los para uma pequena demonstração.
+Tqdm:
+pip install tqdm
+
+PyYAML:
+pip install PyYAML
+
+Protobuf:
+pip install 'protobuf<4.21.3'
+
+Tensorboard:
+pip install 'tensorboard>=2.4.1'
+
+OpenCV:
+pip install opencv-python
+
+Requests:
+python -m pip install requests
 
 ## Uso
 
