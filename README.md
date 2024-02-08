@@ -18,15 +18,15 @@ Essas instruções vão te guiar sobre como obter uma cópia do projeto e rodá-
 
 ### Pré-requisitos
 
-Python: https://www.python.org/downloads/
-Pip: https://pypi.org/project/pip/
-PyTorch: https://pytorch.org/
-Tqdm: https://pypi.org/project/tqdm/
-PyYAML: https://pypi.org/project/PyYAML/
-Protobuf: https://pypi.org/project/protobuf/
-Tensorboard: https://pypi.org/project/tensorboard/
-OpenCV: https://pypi.org/project/opencv-python/
-Requests: https://pypi.org/project/requests/
+- Python: https://www.python.org/downloads/
+- Pip: https://pypi.org/project/pip/
+- PyTorch: https://pytorch.org/
+- Tqdm: https://pypi.org/project/tqdm/
+- PyYAML: https://pypi.org/project/PyYAML/
+- Protobuf: https://pypi.org/project/protobuf/
+- Tensorboard: https://pypi.org/project/tensorboard/
+- OpenCV: https://pypi.org/project/opencv-python/
+- Requests: https://pypi.org/project/requests/
 
 ### Instalação Local Windows
 Python: Faça o download do Python na sua maquina e instale normalmente.
