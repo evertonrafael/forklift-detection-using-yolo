@@ -21,7 +21,7 @@ git clone --depth=1 https://github.com/evertonrafael/forklift-detection-using-yo
 - Consultar arquivo "requirements.txt"
 
 
-### Instalação Local Windows
+### Instalação das bibliotecas
 Python: Faça o download do Python na sua maquina e instale normalmente.
 
 Execute o comando para baixar todas as bibliotecas necessárias:
