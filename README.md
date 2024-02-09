@@ -1,6 +1,6 @@
 # FORKLIFT DETECTION USING YOLO
 
-Uma breve descrição do que o projeto faz e para quem é destinado.
+Este trabalho teve como propósito a criação de um modelo de detecção de empilhadeiras com um sistema de iluminação integrado via ESP32.
 
 ## Clonando o Repositório
 
