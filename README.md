@@ -69,7 +69,7 @@ pip install opencv-python
 
 Requests:
 ```javascript
-python -m pip install requests
+pip install requests
 ```
 
 ## Uso
