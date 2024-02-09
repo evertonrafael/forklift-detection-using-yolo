@@ -1,6 +1,6 @@
 # Forklift Detection Using YOLO
 
-Este trabalho teve como propósito a criação de um modelo de detecção de empilhadeiras com um sistema de iluminação integrado via ESP32.
+Este trabalho teve como propósito a criação de um modelo de detecção de empilhadeiras com um sistema de iluminação integrado usando ESP32.
 
 ## Clonando o Repositório
 
