@@ -1,4 +1,4 @@
-# test-forklift
+# FORKLIFT DETECTION USING YOLO
 
 Uma breve descrição do que o projeto faz e para quem é destinado.
 
@@ -28,32 +28,49 @@ Essas instruções vão te guiar sobre como obter uma cópia do projeto e rodá-
 - OpenCV: https://pypi.org/project/opencv-python/
 - Requests: https://pypi.org/project/requests/
 
+
 ### Instalação Local Windows
 Python: Faça o download do Python na sua maquina e instale normalmente.
 
 Pip:
+```javascript
 pip install pip
+```
 
 PyTorch (https://pytorch.org/get-started/locally/):
+```javascript
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
 
 Tqdm:
+```javascript
 pip install tqdm
+```
 
 PyYAML:
+```javascript
 pip install PyYAML
+```
 
 Protobuf:
+```javascript
 pip install 'protobuf<4.21.3'
+```
 
 Tensorboard:
+```javascript
 pip install 'tensorboard>=2.4.1'
+```
 
 OpenCV:
+```javascript
 pip install opencv-python
+```
 
 Requests:
+```javascript
 python -m pip install requests
+```
 
 ## Uso
 
