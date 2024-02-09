@@ -2,19 +2,18 @@
 
 Uma breve descrição do que o projeto faz e para quem é destinado.
 
-## Descrição
+## Clonando o Repositório
 
-Forneça uma descrição mais detalhada do projeto. Explique o problema que ele resolve, as abordagens utilizadas e os benefícios que traz para os usuários ou para a comunidade.
+```javascript
+git clone --depth=1 https://github.com/evertonrafael/forklift-detection-using-yolo
+```
 
 ### Características
 
-- Destaque os principais recursos do projeto.
-- Descreva as funcionalidades que o diferenciam.
-- Aponte quais problemas ele busca resolver.
-
-## Começando
-
-Essas instruções vão te guiar sobre como obter uma cópia do projeto e rodá-lo localmente para desenvolvimento e testes. Veja as notas sobre como implantar o projeto em um sistema ativo.
+- Projeto de conclusão de curso: Ciencia de Dados - FACENS - Sorocaba/SP
+- Detecção de Objetos
+- Identificar Empilhadeiras em Tempo Real
+- Previvir possíveis acidentes com empilhadeiras em uso
 
 ### Pré-requisitos
 
@@ -32,53 +31,14 @@ Essas instruções vão te guiar sobre como obter uma cópia do projeto e rodá-
 ### Instalação Local Windows
 Python: Faça o download do Python na sua maquina e instale normalmente.
 
-Pip:
+Execute o comando para baixar todas as bibliotecas necessárias:
 ```javascript
-pip install pip
+pip install -r requeriments.txt
 ```
-
-PyTorch (https://pytorch.org/get-started/locally/):
-```javascript
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-```
-
-Tqdm:
-```javascript
-pip install tqdm
-```
-
-PyYAML:
-```javascript
-pip install PyYAML
-```
-
-Protobuf:
-```javascript
-pip install 'protobuf<4.21.3'
-```
-
-Tensorboard:
-```javascript
-pip install 'tensorboard>=2.4.1'
-```
-
-OpenCV:
-```javascript
-pip install opencv-python
-```
-
-Requests:
-```javascript
-pip install requests
-```
-
-## Uso
-
-Instruções sobre como usar o projeto após a instalação, com exemplos de comandos ou ações que podem ser realizadas.
 
 ## Desenvolvimento
 
-Explique como configurar o ambiente de desenvolvimento, como contribuir para o projeto e outras informações relevantes para outros desenvolvedores.
+Faça a instalação de todas as bibliotecas necessárias. Assim será possível rodar o projeto
 
 ## Testes
 
@@ -90,25 +50,13 @@ Notas adicionais sobre como implantar isso em um sistema ativo.
 
 ## Construído com
 
-- [Nome da Tecnologia](link) - Descrição da tecnologia usada
-- [Nome da Biblioteca](link) - Descrição da biblioteca
+- [Python](https://www.python.org/) - Linguagem de Programação
+- [YOLOv7](https://github.com/WongKinYiu/yolov7) - Official YOLOv7
+- [Roboflow](https://roboflow.com/) - Criação de Dataset para imagens e Data Augmentation
 
-## Contribuindo
-
-Por favor, leia [CONTRIBUTING.md](link para um arquivo CONTRIBUTING.md) para detalhes sobre nosso código de conduta e o processo para enviar pedidos de pull requests.
 
 ## Autores
 
-- **Seu Nome** - *Trabalho Inicial* - [SeuUsername](link para seu perfil)
-
-Veja também a lista de [contribuidores](link para contribuidores) que participaram deste projeto.
-
-## Licença
-
-Este projeto está licenciado sob a Licença XYZ - veja o arquivo [LICENSE.md](link para um arquivo LICENSE.md) para detalhes.
-
-## Agradecimentos
-
-- Agradecimento a alguém cujo código foi usado
-- Inspiração
-- etc
+- **Felipe Soflasio** - [FilipeData](https://github.com/FilipeData)
+- **Rafael Farias** - [evertonrafael](https://github.com/evertonrafael)
+- **Lais Catarina** - [laislins](https://github.com/laislins)
