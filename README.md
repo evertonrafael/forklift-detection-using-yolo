@@ -42,5 +42,5 @@ Faça a instalação de todas as bibliotecas necessárias. Assim será possível
 ## Autores
 
 - **Felipe Soflasio** - [FilipeData](https://github.com/FilipeData)
-- **Rafael Farias** - [evertonrafael](https://github.com/evertonrafael)
 - **Lais Lins** - [laislins](https://github.com/laislins)
+- **Rafael Farias** - [evertonrafael](https://github.com/evertonrafael)
