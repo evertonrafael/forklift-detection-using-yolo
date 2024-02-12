@@ -10,7 +10,7 @@ git clone --depth=1 https://github.com/evertonrafael/forklift-detection-using-yo
 
 ### Características
 
-- Projeto de conclusão de curso: Ciencia de Dados - FACENS - Sorocaba/SP
+- Projeto de conclusão de curso: Ciencia de Dados - FACENS - Sorocaba/SP - 2024
 - Detecção de Objetos
 - Identificar Empilhadeiras em Tempo Real
 - Previvir possíveis acidentes com empilhadeiras em uso
