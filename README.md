@@ -47,20 +47,20 @@ Script para rodar o algoritmo de detecção das empilhadeiras, já com o modelo 
 
 Este é o arquivo que deve ser compilado no ESP32. Script responsável para fazer a comunicação entre a detecção das empilhadeiras com o sistema luminoso.
 
-1 - Conecte o ESP32 no USB
-2 - Abra o programa [Arduino IDE](https://www.arduino.cc/en/software)
-3 - Abra o arquivo "Sistema_Iluminacao_ESP32.ino", na linha 19, digite o nome da rede que será usada, e a senha da mesma rede, na linha 20.
-4 - No Arduino IDE, clique em verificar o código e depois, clique em upload.
-5 - No momento que estiver realizado o upload, clique no botão boot do arduino.
-6 - Após finalizar o upload e o boot, no Arduino IDE, abra a ferramenta Serial Monitor.
-7 - No ESP32, aperte o botão Reset
-8 - No Serial Monitor, aparecerá o IP do ESP32 (Veja o exemplo abaixo) que será usado no arquivo "Detectar_Empilhadeiras_ESP32.py".
+- 1 - Conecte o ESP32 no USB
+- 2 - Abra o programa [Arduino IDE](https://www.arduino.cc/en/software)
+- 3 - Abra o arquivo "Sistema_Iluminacao_ESP32.ino", na linha 19, digite o nome da rede que será usada, e a senha da mesma rede, na linha 20.
+- 4 - No Arduino IDE, clique em verificar o código e depois, clique em upload.
+- 5 - No momento que estiver realizado o upload, clique no botão boot do arduino.
+- 6 - Após finalizar o upload e o boot, no Arduino IDE, abra a ferramenta Serial Monitor.
+- 7 - No ESP32, aperte o botão Reset
+- 8 - No Serial Monitor, aparecerá o IP do ESP32 (Veja o exemplo abaixo) que será usado no arquivo "Detectar_Empilhadeiras_ESP32.py".
 
----------
+
 WiFi connected.
 IP address: 
 000.000.0.00
----------
+
 
 ### Detectar_Empilhadeiras_ESP32.py
 

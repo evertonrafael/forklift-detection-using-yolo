@@ -136,3 +136,4 @@ webdriver-manager==4.0.1
 webencodings==0.5.1
 websocket-client==1.6.1
 Werkzeug==3.0.1
+wsproto==1.2.0
