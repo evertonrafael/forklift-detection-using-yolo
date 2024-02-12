@@ -5,7 +5,7 @@ import requests
 
 # Informe o caminho do melhor modelo do treinamento realizado
 # Exemplo: yolov7/runs/train/weights/best.pt
-caminho_pesos = "best.pt" # No projeto atual neste repositório o melhor modelo é este informado
+caminho_pesos = "best.pt" #No projeto atual neste repositório o melhor modelo é este informado
 
 modelo = torch.hub.load('WongKinYiu/yolov7', 'custom', caminho_pesos)
 

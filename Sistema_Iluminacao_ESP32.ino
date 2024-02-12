@@ -8,10 +8,7 @@
 
  If the IP address of your shield is yourAddress:
  http://yourAddress/H turns the LED on
- http://yourAddress/L turns it off
-
-
- 
+ http://yourAddress/L turns it off 
  */
 
 #include <WiFi.h>

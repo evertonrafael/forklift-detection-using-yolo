@@ -7,8 +7,10 @@ import roboflow
 
 # Clonar o repositório do YOLOv7
 subprocess.run(['git', 'clone', 'https://github.com/augmentedstartups/yolov7.git'], check=True)
+
 # Mudar o diretório de trabalho para o repositório clonado do YOLOv7
 os.chdir('yolov7')
+
 # Instalar as dependências necessárias a partir de requirements.txt
 subprocess.run(['pip', 'install', '-r', 'requirements.txt'], check=True)
 

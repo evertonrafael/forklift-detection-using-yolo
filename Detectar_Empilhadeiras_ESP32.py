@@ -16,10 +16,6 @@ CELL_CONFIDENCE = 0.40 # Nível de confiança na detecção do Objeto para a mar
 # Cores das caixas de detecção dos objetos
 CELL_BORDER = (0, 0, 255) # Cor da borda para a caixa de detecção do objeto
 
-#Conexão com o ESP32 - Defina o endereço IP da rede
-#possui_esp32 = input('Possui Sistema ESP32 conectado na Rede? (Responda SIM ou NAO): ')
-#esp32_ip = str(input('Digite o caminho do ESP32 (IP): '))
-
 # Código para solicitar a conexão do ESP32 e validar o IP
 def validar_ip(ip):
     """Valida se o endereço IP está em um formato válido."""
@@ -31,9 +27,9 @@ def validar_esp32():
         se_esp32_conectado = input("Você possui um ESP32 conectado? (SIM/NÃO): ").strip().upper()
         if se_esp32_conectado == "SIM":
             while True:
-                ip_esp32 = input("Digite o IP do ESP32: ").strip()
-                if validar_ip(ip_esp32):
-                    print(f"IP válido: {ip_esp32}")
+                esp32_ip = input("Digite o IP do ESP32: ").strip()
+                if validar_ip(esp32_ip):
+                    print(f"IP válido: {esp32_ip}")
                     
                     # Função usando a biblioteça OpenCV para usar a Webcam na detecção de objetos
                     captura = cv2.VideoCapture(0) 
@@ -69,19 +65,17 @@ def validar_esp32():
                             if row['confidence'] > CELL_CONFIDENCE:
                                 print('Empilhadeira Detectada')
                                 if se_esp32_conectado == "SIM":
-                                    print('ESP32 Acendeu')
-                                    #ligar_url = f"http://{esp32_ip}/X"
-                                    #response = requests.get(ligar_url)
-                                    #print(response.text)
+                                    ligar_url = f"http://{esp32_ip}/X"
+                                    response = requests.get(ligar_url)
+                                    print(response.text)
                                 else:
                                     print('ESP32 Não conectado')
                             else:
                                 print('Nenhuma Empilhadeira Detectada')
                                 if se_esp32_conectado == "NÃO":
-                                    print('ESP32 Apagou')
-                                    #desligar_url = f"http://{esp32_ip}/Y"
-                                    #response = requests.get(desligar_url)
-                                    #print(response.text)
+                                    desligar_url = f"http://{esp32_ip}/Y"
+                                    response = requests.get(desligar_url)
+                                    print(response.text)
                                 else:
                                     print('ESP32 Não conectado')
 
