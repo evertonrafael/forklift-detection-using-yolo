@@ -67,15 +67,15 @@ def validar_esp32():
                                 if se_esp32_conectado == "SIM":
                                     ligar_url = f"http://{esp32_ip}/X"
                                     response = requests.get(ligar_url)
-                                    print(response.text)
+                                    #print(response.text)
                                 else:
                                     print('ESP32 Não conectado')
                             else:
                                 print('Nenhuma Empilhadeira Detectada')
-                                if se_esp32_conectado == "NÃO":
+                                if se_esp32_conectado == "SIM":
                                     desligar_url = f"http://{esp32_ip}/Y"
                                     response = requests.get(desligar_url)
-                                    print(response.text)
+                                    #print(response.text)
                                 else:
                                     print('ESP32 Não conectado')
 

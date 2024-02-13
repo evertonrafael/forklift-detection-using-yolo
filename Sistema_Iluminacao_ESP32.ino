@@ -86,7 +86,7 @@ void loop() {
         if (currentLine.endsWith("GET /X")) {
           digitalWrite(25, HIGH);  // GET /H turns the LED on
         }
-        if (currentLine.endsWith("GET /Y)) {
+        if (currentLine.endsWith("GET /Y")) {
           digitalWrite(25, LOW);  // GET /L turns the LED off
         }
       }
