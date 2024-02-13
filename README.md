@@ -75,6 +75,8 @@ Script para criar o próprio modelo, utilizando YOLOv7, Roboflow e os hiperparâ
 - [Python](https://www.python.org/) - Linguagem de Programação
 - [YOLOv7](https://github.com/WongKinYiu/yolov7) - Official YOLOv7
 - [Roboflow](https://roboflow.com/) - Criação de Dataset para imagens e Data Augmentation
+- [Arduino IDE ](https://www.arduino.cc/en/software) - Interface para prototipagem de placas eletrônicas
+- ESP32 - Micro controlador com integração Wi-fi e Bluetooth
 
 ## Autores
 
